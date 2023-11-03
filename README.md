@@ -1,7 +1,7 @@
 # BMI Calculator
 
 ## Demo
-[WEBSITE-PREVIEW]https://tomecky1.github.io/bmi_calc/
+[WEBSITE-PREVIEW](https://tomecky1.github.io/bmi_calc/)
 
 ### DESCRIPTION
 This my first very basic BMI calculator still in development [IN-PROGRESS]
