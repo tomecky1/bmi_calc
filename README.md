@@ -7,8 +7,8 @@
 This my first very basic BMI calculator still in development [IN-PROGRESS]
 
 **things to do:**
-- Add some nice styling to the site but nothing fancy
-- Implement information for user about measured values based on input data
+- Add some nice styling to the site but nothing fancy [DONE]
+- Implement information for user about measured values based on input data [IN-PROGRESS]
 
 *technology used in the project includes:*
 1. HTML 5
