@@ -12,7 +12,7 @@ formElement.addEventListener("submit", (event) => {
     let height = heightElement.value;
     let weight = weightElement.value;
     let bmi = weight / ((height / 100) ** 2);
-    console.log(bmi);
+    console.log(`Aktualne twoje BMI wynosi: ${bmi.toFixed(2)}`);
     bmiElement.innerText = bmi.toFixed(2);
 
 
