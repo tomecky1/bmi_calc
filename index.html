@@ -13,40 +13,40 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    <h2> Kalkulator BMI - Witaj!</h2>
+    <div class="container">
+    <h2 class="header">Kalkulator BMI - Witaj!</h2>
     <p>Policz swoje BMI!</p>
-    <form class="form js-form" method="post">
-        <fieldset class="form__fieldset">
-            <legend>Wpisz dane:</legend>
-            <label>
-            <p>
-                <input class="js-height form__input" type="number" name="wzrost" placeholder="Podaj wzrost w cm" min="1" step="any" required>
-            </p>
-            </label>
-            <label>
-            <p>
-                <input class="js-weight form__input" type="number" name="waga" placeholder="Podaj wagę w kg" min="1" step="any" required>
-            </p>
-            </label>         
-        </fieldset>
-        <fieldset class="form__fieldset">
-            <legend>Wybierz płeć:</legend>
-            <label>
-            <p>
-                <input type="radio" name="plec" value="kobieta">Kobieta
-            </p>
-            </label>
-            <label>
-            <p>
-                <input type="radio" name="plec" value="mezczyzna" checked>Mężczyzna
-            </p>
-            </label>
-        </fieldset>
-        <p>
-            <button>Policz BMI</button>
-            <button type="reset" class="js-reset">Wyczyść formularz</button>
-        </p>        
-        </form>    
-    <p>Twoje BMI wynosi: <strong class="js-bmi bmi">N/A</strong></p>
+        <form class="form js-form" method="post">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Wpisz dane do kalkulatora</legend>
+                <label>
+                <p>
+                    Podaj swój wzrost: <input class="js-height form__input" type="number" name="wzrost" placeholder="Podaj wzrost w cm" min="1" step="any" required>
+                </p>
+                </label>
+                <label>
+                <p>
+                    Podaj swoją wagę: <input class="js-weight form__input" type="number" name="waga" placeholder="Podaj wagę w kg" min="1" step="any" required>
+                </p>
+                </label>              
+                <legend>Wybierz płeć:</legend>
+                <label>
+                <p>
+                    <input type="radio" name="plec" value="kobieta">Kobieta
+                </p>
+                </label>
+                <label>
+                <p>
+                    <input type="radio" name="plec" value="mezczyzna" checked>Mężczyzna
+                </p>
+                </label>
+            </fieldset>            
+            <p class="flex">
+                <button class="form__button">Policz BMI</button>
+                <button type="reset" class="js-reset form__button">Wyczyść formularz</button>
+            </p>        
+        </form>
+    </div>    
+    <p class="result">Twoje BMI wynosi: <strong class="js-bmi bmi">N/A</strong></p>
 </body>
 </html>

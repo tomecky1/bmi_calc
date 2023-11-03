@@ -15,9 +15,27 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #f8f9fa;
+    background-image: url(/images/autumn-8309311_1920.jpg);
+}
+
+.header {
+    margin-top: 50px;
+}
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+    padding-bottom: 2rem;
+    border-radius: 5px;
 }
 
 .bmi {
     color: teal;
+}
+
+.result {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
